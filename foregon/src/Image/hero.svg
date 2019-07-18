@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="408px" height="80px" viewBox="0 0 408 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+    <title>D8C7C0C1-F337-430B-9BC9-A91407DC2140</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#9CCC65" offset="0%"></stop>
+            <stop stop-color="#43A047" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="392" height="64" rx="4"></rect>
+        <filter x="-3.6%" y="-15.6%" width="107.1%" height="143.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.105882353   0 0 0 0 0.368627451   0 0 0 0 0.125490196  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-2.6%" y="-9.4%" width="105.1%" height="131.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="-4" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Teste-de-Front-end" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Página-de-produto-/-Desktop" transform="translate(-932.000000, -267.000000)">
+            <g id="hero-cartao" transform="translate(0.000000, 152.000000)">
+                <g id="Group-2" transform="translate(940.000000, 119.000000)">
+                    <g id="Group-4">
+                        <g id="CTA-/-Hero">
+                            <g id="Group-10">
+                                <g id="Rectangle" fill-rule="nonzero">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                                    <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+                                </g>
+                                <g id="Icon-/-Seguro-/-Grande-/-Branco" transform="translate(16.000000, 19.000000)">
+                                    <g id="icons8-lock">
+                                        <path d="M12,2 C8.6761905,2 6,4.6761905 6,8 L6,9 C4.9,9 4,9.9 4,11 L4,21 C4,22.1 4.9,23 6,23 L18,23 C19.1,23 20,22.1 20,21 L20,11 C20,9.9 19.1,9 18,9 L18,8 C18,4.6761905 15.32381,2 12,2 Z M12,4 C14.27619,4 16,5.7238095 16,8 L16,9 L8,9 L8,8 C8,5.7238095 9.7238095,4 12,4 Z M12,14 C13.1,14 14,14.9 14,16 C14,17.1 13.1,18 12,18 C10.9,18 10,17.1 10,16 C10,14.9 10.9,14 12,14 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                                        <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                                    </g>
+                                </g>
+                                <text id="Descubra-suas-chance" font-family="SFProText-Heavy, SF Pro Text" font-size="14" font-weight="600" fill="#FFFFFF">
+                                    <tspan x="115.098145" y="36">DESCUBRA SUAS CHANCES</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

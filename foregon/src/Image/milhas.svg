@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+    <title>7C331155-8CEC-497E-A341-44CD8E4E78E8</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-/-Benefícios-/-Milhas">
+            <g id="icon-aviao">
+                <rect id="Rectangle" x="0" y="0" width="32" height="32"></rect>
+                <g id="Group" transform="translate(6.000000, 11.050000)" fill="#2196F3" fill-rule="nonzero">
+                    <polygon id="Path" points="14.3 15.95 11 14.85 11.33 10.45 14.3 13.75"></polygon>
+                    <polygon id="Path" points="19.8 10.45 11.55 6.38 11.44 2.53 11.33 0 19.8 8.36"></polygon>
+                    <polygon id="Path" points="5.5 15.95 8.8 14.85 8.47 10.45 5.5 13.75"></polygon>
+                    <polygon id="Path" points="0 10.45 8.25 6.38 8.36 2.53 8.47 0 0 8.36"></polygon>
+                </g>
+                <path d="M15.9,5 L15.9,5 C14.69,5 13.7,5.99 13.7,7.2 L13.7,25.35 C13.7,25.955 14.195,26.45 14.8,26.45 L17,26.45 C17.605,26.45 18.1,25.955 18.1,25.35 L18.1,7.2 C18.1,5.99 17.11,5 15.9,5 Z" id="Path" fill="#64B5F6" fill-rule="nonzero"></path>
+                <rect id="Rectangle" fill="#2196F3" fill-rule="nonzero" x="15.35" y="21.5" width="1.1" height="4.95"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
