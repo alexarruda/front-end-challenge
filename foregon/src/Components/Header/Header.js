@@ -74,7 +74,7 @@ export default class Header extends Component {
                             </div>
                             <nav className="header-left-menu">
                                 <div className="nav-menu">
-                                    <button className={`nav-menu-button ${isSwitchOn ? "button-click" : ""}`} onClick={this.clique}>
+                                    <button className={`nav-menu-button ${isSwitchOn ? "button-click" : ""}`} onClick={this.clique} title="Clique e Descubra!">
                                         Cartões de crédito 
                                         <img className={`menu-seta ${isSwitchOn ? "menu-seta-open" : ""}`} src={seta} alt="Seta" />
                                     </button>

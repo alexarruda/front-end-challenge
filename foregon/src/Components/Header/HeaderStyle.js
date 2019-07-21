@@ -357,6 +357,7 @@ export const MenuMobile = styled.div`
         z-index: 1;
         cursor: pointer;
         width: 100%;
+        height: 100%;
         margin: 0;
 
         p {
@@ -370,6 +371,8 @@ export const MenuMobile = styled.div`
         .burger {
             display: block;
             position: relative;
+            width: 100%;
+            height: 100%;
 
             span {
                 position: absolute;

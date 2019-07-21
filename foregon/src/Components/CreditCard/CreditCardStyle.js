@@ -99,7 +99,7 @@ export const CreditCardApp = styled.section`
         }
     }
 
-    @media ${device.mobile} {
+    @media ${device.tablet} {
         
         .card-all {
             height: auto;
