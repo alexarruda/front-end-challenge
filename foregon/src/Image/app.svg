@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+    <title>44638DEF-2229-4F28-BAB1-10679A40A6D2</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-/-Benefícios-/-App">
+            <g id="icons8-iphone_x">
+                <rect id="Rectangle" x="0" y="0" width="32" height="32"></rect>
+                <path d="M23.4,6.4 L23.4,25.6 C23.4,26.92 22.32,28 21,28 L11.4,28 C10.08,28 9,26.92 9,25.6 L9,6.4 C9,5.08 10.08,4 11.4,4 L21,4 C22.32,4 23.4,5.08 23.4,6.4 Z" id="Path" fill="#E38939" fill-rule="nonzero"></path>
+                <path d="M11.4,26.8 L21,26.8 C21.663,26.8 22.2,26.263 22.2,25.6 L22.2,6.4 C22.2,5.737 21.663,5.2 21,5.2 L20.4,5.2 C20.0688,5.2 19.8,5.4688 19.8,5.8 L19.8,5.8 C19.8,6.463 19.263,7 18.6,7 L13.8,7 C13.137,7 12.6,6.463 12.6,5.8 L12.6,5.8 C12.6,5.4688 12.3312,5.2 12,5.2 L11.4,5.2 C10.737,5.2 10.2,5.737 10.2,6.4 L10.2,25.6 C10.2,26.263 10.737,26.8 11.4,26.8 Z" id="Path" fill="#FFF3E0" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
