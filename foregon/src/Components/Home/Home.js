@@ -38,10 +38,10 @@ export default class Home extends Component {
                 <div className="container">
                     <HomeAll>
                         <HomeTop>
-                            <div className="home-top-child home-top-first">
+                            <div className="home-top home-top-first">
                                 <img src={this.state.dadosCartao.imageUrl} alt={this.state.dadosCartao.name} />
                             </div>
-                            <div className="home-top-child home-top-second">
+                            <div className="home-top home-top-second">
                                 <p className="product-categorie">Cartão de crédito <img src={visa} alt="Visa" /></p>
                                 <h2 className="product-name">{this.state.dadosCartao.name}</h2>
                                 <div className="product-infos">
@@ -51,48 +51,51 @@ export default class Home extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="home-top-child home-top-first home-top-mobile">
-                                <img src={this.state.dadosCartao.imageUrl} alt={this.state.dadosCartao.name} />
+                            <div className="home-top home-top-first home-top-mobile">
+                                <img src={this.state.dadosCartao.imageUrl} alt={this.state.dadosCartao.description} />
                             </div>
                         </HomeTop>
                         <HomeBottom>
                             <div className="details">
-                                    <div className="product-detail">
-                                        <div className="product-detail-image">
-                                            <img src={info} alt="Info" />
-                                        </div>
-                                        <div className="product-detail-description">
-                                            <p className="detail-title">Anuidade</p>
-                                            <p className="detail-info">{ this.state.dadosCartao.firstAnnuity ? this.state.dadosCartao.firstAnnuity.textFormatted : "" }</p>
-                                        </div>
+                                <div className="product-detail">
+                                    <div className="product-detail-image">
+                                        <img src={info} alt="Info" />
                                     </div>
-                                    <div className="product-detail">
-                                        <div className="product-detail-image">
-                                            <img src={info} alt="Info" />   
-                                        </div>
-                                        <div className="product-detail-description">
-                                            <p className="detail-title">Renda mínima</p>
-                                            <p className="detail-info">R$ { this.state.dadosCartao.valueOfMinimalIncomeRequired }</p>
-                                        </div>
+                                    <div className="product-detail-description">
+                                        <p className="detail-title">Anuidade</p>
+                                        <p className="detail-info">
+                                            { this.state.dadosCartao.firstAnnuity ? this.state.dadosCartao.firstAnnuity.installments : "" }
+                                            x { this.state.dadosCartao.firstAnnuity ? this.state.dadosCartao.firstAnnuity.installmentValueFormatted : "" }
+                                        </p>
                                     </div>
-                                    <div className="product-detail">
-                                        <div className="product-detail-image">
-                                            <img src={app} alt="App" />
-                                        </div>
-                                        <div className="product-detail-description">
-                                            <p className="detail-title">Aplicativo</p>
-                                            <p className="detail-info">para controlar seus gastos</p>
-                                        </div>
+                                </div>
+                                <div className="product-detail">
+                                    <div className="product-detail-image">
+                                        <img src={info} alt="Info" />   
                                     </div>
-                                    <div className="product-detail">
-                                        <div className="product-detail-image">
-                                            <img src={milhas} alt="Milhas" />
-                                        </div>
-                                        <div className="product-detail-description">
-                                            <p className="detail-title">Milhas áreas</p>
-                                            <p className="detail-info">pelo programa Smiles</p>
-                                        </div>
+                                    <div className="product-detail-description">
+                                        <p className="detail-title">Renda mínima</p>
+                                        <p className="detail-info">R$ { this.state.dadosCartao.valueOfMinimalIncomeRequired }</p>
                                     </div>
+                                </div>
+                                <div className="product-detail">
+                                    <div className="product-detail-image">
+                                        <img src={app} alt="App" />
+                                    </div>
+                                    <div className="product-detail-description">
+                                        <p className="detail-title">Aplicativo</p>
+                                        <p className="detail-info">para controlar seus gastos</p>
+                                    </div>
+                                </div>
+                                <div className="product-detail">
+                                    <div className="product-detail-image">
+                                        <img src={milhas} alt="Milhas" />
+                                    </div>
+                                    <div className="product-detail-description">
+                                        <p className="detail-title">Milhas áreas</p>
+                                        <p className="detail-info">pelo programa Smiles</p>
+                                    </div>
+                                </div>
                             </div>
                         </HomeBottom>
                     </HomeAll>

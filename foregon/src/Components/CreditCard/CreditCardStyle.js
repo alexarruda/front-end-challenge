@@ -20,7 +20,7 @@ export const CreditCardApp = styled.section`
     .card-content {
         width: 948px;
         height: 199px;
-        font-family: Roboto;
+        font-family: 'Roboto', sans-serif;
         border-radius: 6px;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.24);
         border: solid 1px #ededed;
@@ -82,6 +82,7 @@ export const CreditCardApp = styled.section`
                 height: 33px;
                 border-radius: 3px;
                 background-color: #0053f9;
+                border: solid 2px #0053f9;
                 font-size: 15px;
                 font-weight: bold;
                 line-height: 33px;
@@ -89,6 +90,11 @@ export const CreditCardApp = styled.section`
                 color: #ffffff;
                 text-transform: uppercase;
                 text-decoration: none;
+
+                &:hover {
+                    background-color: #EEE;
+                    color: #0053f9;
+                }
             }
         }
     }
@@ -108,10 +114,14 @@ export const CreditCardApp = styled.section`
                 height: auto;
 
                 .card-content-description {
-                    padding: 30px 20px 60px;
+                    padding: 30px 24px 60px;
 
                     h2 {
                         font-size: 30px;
+                    }
+
+                    h3 {
+                        font-size: 16px;
                     }
                 }
             }
